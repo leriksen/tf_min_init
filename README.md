@@ -9,3 +9,6 @@ Initialising a minimal, TFC-connected, codebase
     1. it should be the same as the <env> suffix in `TF_WORKSPACE`
 1. run `terraform init`, `terraform plan` etc
 1. iterate youe infra as required from there
+
+If you dont need a TFC-connected experience, uncomment the local state storage directive in the terraform.tf file,
+or customise as required (azure storage, AWS S3 etc)
